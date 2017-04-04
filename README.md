@@ -19,4 +19,9 @@ The Turbo decoder consists of two decoders. One decoder makes use of the output 
 * [Forward Algorithm for HMM](https://algorithmsdatascience.quora.com/A-quick-note-of-forward-algorithm-for-HMM) 
 * [Turbo decoding](https://algorithmsdatascience.quora.com/HMM-Part-7-MAP-Decoder-of-Convolutional-Code-Turbo-Code-GitHub-included) 
 
+## Note
+This is an simple but complete example of Turbo decoder written in MATLAB by Bob G. It demonstrates how to use "forward algorithm" and "backward algorithm" of a Hidden Marcov Model to make a MAP decoder, and then use the MAP decoder to further build a Turbo decoder.
+
+The output of my code is a little bit differnt from what was given by this pdf document [Turbo Code Primer](http://vashe.org/turbo/turbo_primer_0.0.pdf).
+The 2,3,4th iterations are missed in that pdf file. The output of the 5th iteration  of my code is exactly the same as the output of the 3rd iteration of the pdf. I guess the pdf document missed some iterations. 
 
