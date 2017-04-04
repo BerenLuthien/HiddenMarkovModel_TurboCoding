@@ -11,7 +11,7 @@ It is very similar to the famous question of [Which coin ?](https://www.quora.co
 ![](pics/forward3.png)
 Turbo decoding is a belief propogation algorithm.
 The Turbo decoder consists of two decoders. One decoder makes use of the output of the other deocoder's output as a prior information (alike initialization). Then the two decoders propogate information in this "turbo" way, and eventually output a robust decoding result.
-![](pics/turbo.jpeg)
+![](pics/Turbo.jpeg)
 
 ## Related Posts of Mine
 * [Forward Algorithm for HMM](https://algorithmsdatascience.quora.com/A-quick-note-of-forward-algorithm-for-HMM) 
