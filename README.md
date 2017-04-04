@@ -9,6 +9,7 @@ Forward algorithm is the basic of Turbo decoding, and it can be illustrated as â
 It is very similar to the famous question of [Which coin ?](https://www.quora.com/A-jar-has-1000-coins-of-which-999-are-fair-and-1-is-double-headed-Pick-a-coin-at-random-and-toss-it-10-times-Given-that-you-see-10-heads-what-is-the-probability-that-the-next-toss-of-that-coin-is-also-a-head) 
 
 ![](pics/forward3.png)
+
 Turbo decoding is a belief propogation algorithm.
 The Turbo decoder consists of two decoders. One decoder makes use of the output of the other deocoder's output as a prior information (alike initialization). Then the two decoders propogate information in this "turbo" way, and eventually output a robust decoding result.
 
