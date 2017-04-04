@@ -1,8 +1,8 @@
 # TurboCoding & Hidden Markov Model
 This is about Hidden Markov Model, Forward algorithm, Backward algorithm, Viterbi Algorithm, Baum Welch algorithm, MAP decoder.
 
-![](pics\forward1.jpg)
-![](pics\forward2.jpg)
+![](pics\forward1.jpeg)
+![](pics\forward2.png)
 ![](pics\forward3.png)
 
 
