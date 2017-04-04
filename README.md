@@ -7,6 +7,7 @@ Forward algorithm is the basic of Turbo decoding, and it can be illustrated as â
 ![](pics/forward2.png)
 
 It is very similar to the famous question of [Which coin ?](https://www.quora.com/A-jar-has-1000-coins-of-which-999-are-fair-and-1-is-double-headed-Pick-a-coin-at-random-and-toss-it-10-times-Given-that-you-see-10-heads-what-is-the-probability-that-the-next-toss-of-that-coin-is-also-a-head) 
+
 ![](pics/forward3.png)
 
 
