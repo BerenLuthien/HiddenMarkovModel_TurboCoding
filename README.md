@@ -1,5 +1,5 @@
 # TurboCoding & Hidden Markov Model
-This is about Hidden Markov Model, Forward algorithm, Backward algorithm, Viterbi Algorithm, Baum Welch algorithm, MAP decoder.
+This is about Hidden Markov Model, Forward algorithm, MAP decoder and Turbo decoder.
 
 ## Forward algorithm
 Forward algorithm is the basic of Turbo decoding, and it can be illustrated as “re-adjust the Prob distribution by weights, where Likelihoods are used as weights”
