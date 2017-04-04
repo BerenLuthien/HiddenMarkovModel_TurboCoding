@@ -1,9 +1,12 @@
 # TurboCoding & Hidden Markov Model
 This is about Hidden Markov Model, Forward algorithm, Backward algorithm, Viterbi Algorithm, Baum Welch algorithm, MAP decoder.
 
-![](pics\forward1.jpeg)
-![](pics\forward2.png)
-![](pics\forward3.png)
+## Forward algorithm
+Forward algorithm is the basic of Turbo decoding, and it can be illustrated as “re-adjust the Prob distribution by weights, where Likelihoods are used as weights”
+![](pics/forward1.jpeg)
+It is very similar to the famous question of * [Which coin ?](https://www.quora.com/A-jar-has-1000-coins-of-which-999-are-fair-and-1-is-double-headed-Pick-a-coin-at-random-and-toss-it-10-times-Given-that-you-see-10-heads-what-is-the-probability-that-the-next-toss-of-that-coin-is-also-a-head) 
+![](pics/forward2.png)
+![](pics/forward3.png)
 
 
 ## Related Posts of Mine
