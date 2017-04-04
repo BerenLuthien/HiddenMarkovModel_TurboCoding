@@ -1,5 +1,5 @@
 # TurboCoding & Hidden Markov Model
-This is about Hidden Markov Model, Forward algorithm, MAP decoder and Turbo decoder.
+This is about Hidden Markov Model, Forward algorithm and Turbo decoder.
 
 ## Forward algorithm
 Forward algorithm is the basic of Turbo decoding, and it can be illustrated as “re-adjust the Prob distribution by weights, where Likelihoods are used as weights”
@@ -11,7 +11,7 @@ It is very similar to the famous question of [Which coin ?](https://www.quora.co
 ![](pics/forward3.png)
 
 Turbo decoding is a belief propogation algorithm.
-The Turbo decoder consists of two decoders. One decoder makes use of the output of the other deocoder's output as a prior information (alike initialization). Then the two decoders propogate information in this "turbo" way, and eventually output a robust decoding result.
+The Turbo decoder consists of two decoders. One decoder makes use of the output of the other deocoder's output as a prior information (which is requested in the forward algorithm). Then the two decoders propogate information in this "turbo" way, and eventually output a robust decoding result.
 
 ![](pics/Turbo.jpeg)
 
