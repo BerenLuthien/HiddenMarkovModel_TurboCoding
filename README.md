@@ -1,5 +1,11 @@
-# TurboCoding & Hidden Markov Model
+# TurboCoding & Hidden Markov Model(HMM)
 This is about Hidden Markov Model, Forward algorithm and Turbo decoder.
+This Turbo decoder uses two MAP decoders to build a Turbo decoder. Each MAP decoder uses the output of the other's output as input(aprior, external info). This is why it is called "Turbo".
+
+## MAP decoder
+In MAP deocder, the forward algorithm of HMM gets the state Prob (Alpha) for k-1 state, the backward algorithm gets the stat Prob (Beta) for k state, and the obervation of k-th index gives the transit Prob (Gamma) from k-1 to k. 
+Alpha \times Beta \times Gamma is the final Prob of the tuple of states (k-1, k).
+
 
 ## Forward algorithm
 Forward algorithm is the basic of Turbo decoding, and it can be illustrated as “re-adjust the Prob distribution by weights, where Likelihoods are used as weights”
