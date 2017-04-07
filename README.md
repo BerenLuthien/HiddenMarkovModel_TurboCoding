@@ -4,7 +4,7 @@ This Turbo decoder uses two MAP decoders to build a Turbo decoder. Each MAP deco
 
 ## MAP decoder
 In MAP deocder, the forward algorithm of HMM gets the state Prob (Alpha) for k-1 state, the backward algorithm gets the stat Prob (Beta) for k state, and the obervation of k-th index gives the transit Prob (Gamma) from k-1 to k. 
-Alpha \times Beta \times Gamma is the final Prob of the tuple of states (k-1, k).
+Alpha \times Beta \times Gamma is the final Prob of the tuple of states (k-1, k) which corresponds to the decoding output.
 
 
 ## Forward algorithm
