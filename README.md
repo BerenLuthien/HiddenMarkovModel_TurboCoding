@@ -20,8 +20,11 @@ It is very similar to the famous question of [Which coin ?](https://www.quora.co
 
 
 ## MAP decoder
-In MAP deocder, the forward algorithm of HMM gets the state Prob (Alpha) for k-1 state, the backward algorithm gets the stat Prob (Beta) for k state, and the obervation of k-th index gives the transit Prob (Gamma) from k-1 to k. 
-Alpha \times Beta \times Gamma is the final Prob of the tuple of states (k-1, k) which corresponds to the decoding output.
+In MAP deocder, the forward algorithm of HMM gets the state P(a) for k-1 state, the backward algorithm gets the stat P(b) for k state.
+
+The k-th obervation  gives the transit Prob P(r) for [k-1 , k]. 
+
+At last, a*b*r is the final Prob for states [k-1, k] and it corresponds to the decoding output.
 
 ## Turbo
 The decoding output of MAP-1 can be used by MAP-2 as aprior information (Gamma). Due to the two encoders (yes, encoders) are randomly shuffled, the information propagate between the two decoders and give good result. 
