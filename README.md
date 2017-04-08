@@ -24,7 +24,7 @@ In MAP deocder, the forward algorithm of HMM gets probability P(a) for (k-1)-th 
 
 The k-th obervation  gives the transit probability P(r) for [k-1 , k]. 
 
-At last,  the product (abr) is the final probability for states [k-1, k] and it corresponds to the decoding output.
+At last,  P(a)P(b)P(r) is the final probability for states [k-1, k] and it corresponds to the decoding output.
 
 ## Turbo
 The decoding output of MAP-1 can be used by MAP-2 as aprior information (Gamma). Due to the two encoders (yes, encoders) are randomly shuffled, the information propagate between the two decoders and give good result. 
