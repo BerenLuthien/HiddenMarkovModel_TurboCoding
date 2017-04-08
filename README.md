@@ -1,7 +1,7 @@
 # TurboCoding & Hidden Markov Model(HMM)
 This is about Hidden Markov Model, Forward algorithm and Turbo decoder. 
 
-Turbo decoding is a belief propogation algorithm. The Turbo decoder consists of two MAP decoders. One decoder makes use of the output of the other deocoder's output as aprior information (which is requested in the forward algorithm). Then the two decoders propogate information in a "turbo" way, and eventually output a robust decoding result.
+Turbo decoding is a belief propogation algorithm. The Turbo decoder consists of two MAP decoders. One decoder makes use of the output of the other deocoder's output as aprior information. Then the two decoders propogate information in a "turbo" way, and eventually output a robust decoding result.
 
 ![](pics/Turbo.jpeg)
 
