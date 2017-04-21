@@ -38,4 +38,4 @@ As mentioned at the beginning, the decoding output of one MAP-decoder can be use
 ## Note
 This is an simple but complete example of Turbo decoder written in MATLAB by Bob G. It demonstrates how to use "forward algorithm" and "backward algorithm" of a Hidden Markov Model to make a MAP decoder, and then use the MAP decoder to further build a Turbo decoder.
 
-The output of my code is a little bit different from what was given by this pdf document [Turbo Code Primer](http://vashe.org/turbo/turbo_primer_0.0.pdf). It looks the pdf doc missed some iterations.
+The output of my code is a little bit different from what was given by this pdf document [Turbo Code Primer](http://vashe.org/turbo/turbo_primer_0.0.pdf). It looks the pdf doc missed some iterations (it is super good tuorial though).
